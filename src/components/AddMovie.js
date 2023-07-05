@@ -93,7 +93,7 @@ const AddMovie = () => {
                                 </div>
                             </div>
                             <div className="p-2 w-full">
-                                <button onClick={addmovie} className="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-700 rounded text-lg">{loading ? <TailSpin height={25} color='white' /> : 'Submit'}</button>
+                                <button onClick={addmovie} className="flex mx-auto text-white bg-red-600 border-0 py-2 px-8 focus:outline-none hover:bg-green-700 rounded text-lg">{loading ? <TailSpin height={25} color='white' /> : 'Submit'}</button>
                             </div>
 
                         </div>

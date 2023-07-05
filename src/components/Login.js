@@ -32,7 +32,7 @@ const Login = () => {
                     useAppstate.setuserName(_data.name);
 
                     swal({
-                        title: "Loged In",
+                        title: "Loged In Successfully",
                         icon: "success",
                         buttons: false,
                         timer: 3000
@@ -79,7 +79,7 @@ const Login = () => {
             </div>
 
             <div className="p-2 w-full">
-                <button onClick={login} className="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-700 rounded text-lg">{loading ? <TailSpin height={25} color='white' /> : 'Login'}</button>
+                <button onClick={login} className="flex mx-auto text-white bg-red-600 border-0 py-2 px-8 focus:outline-none hover:bg-green-700 rounded text-lg">{loading ? <TailSpin height={25} color='white' /> : 'Login'}</button>
             </div>
 
             <div>
